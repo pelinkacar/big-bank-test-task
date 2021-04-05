@@ -1,0 +1,21 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+
+<suite name="Automation Tests">
+
+    <listeners>
+        <listener class-name="org.BigBank.Listeners"/>
+    </listeners>
+
+    <test name="Calculator Verification Test">
+        <classes>
+            <class name="org.BigBank.CalculatorVerificationTest"></class>
+        </classes>
+    </test>
+
+    <test name="Registration Form Verification Test">
+        <classes>
+            <class name="org.BigBank.RegistrationFormVerificationTest"></class>
+        </classes>
+    </test>
+
+</suite>
